@@ -1,0 +1,137 @@
+.navbar-brand {
+	color: black;
+	font-size: 24pt; 
+	font-weight: bolder;
+	
+	
+}
+
+
+#baner {
+	background-image: url("header-flowers.png");
+	position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+    
+}
+.nav-link { 
+	font-size: 15pt; 
+	font-weight: bold;
+	color: black;
+}
+
+#carouselExampleIndicators {
+	margin-top: 90px;
+}
+
+.asortiman {
+	background: url('pozadina.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 20px;
+}
+
+.container{ 
+	padding: 30px 0px; 
+	margin-top:0px;
+}
+
+.artikal {
+	margin-bottom: 10px;
+}
+
+.proizvod {
+	text-decoration: none; 
+	color: black;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.proizvod:hover {
+	text-decoration: none; 
+	color: #6e0804;
+	font-size: 15pt;
+}
+
+
+.proizvod img ,
+.proizvod .cena , 
+.proizvod .naziv , 
+.proizvod .sifra {
+	display: block;
+	text-align: center;	
+}
+
+.proizvod .cena {
+	font-size: 15pt;
+}
+
+.proizvod .naziv{
+	font-size: 10pt;
+	margin-top: -6px;
+}
+
+.proizvod .sifra{
+	font-size: 7pt;
+}
+
+.proizvod img {
+	height:250px; 
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #FFFFFF;
+	border-radius: 15px;
+}
+
+
+#con2 h2 {
+	text-align: center;
+}
+
+#con2 p{
+	text-align: center;
+}
+
+.h2class {
+	margin-top: 15px;
+}
+
+#con2 .opis img {
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+.header {
+        background-color: #FFFFFF;
+        color: #000000;
+        height: 70px;
+        font-size: 27px;
+        font-weight: bold;
+        padding: 10px;
+    }
+.panel-body {
+	color: #000000;
+}
+
+.footer {
+  bottom: 0; 
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+ }
